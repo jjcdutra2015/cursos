@@ -1,0 +1,15 @@
+Complexidade de negocio [Necessario seguir regras de negocio]
+Entidade
+    - Unica
+    - Possui ID
+
+Complexidade acidental [Posso mudar conforme eu necessitar]
+Infra
+    Entidade/Modelo
+
+Values Objects
+    Imutavel
+    Autovalidação
+    Deixa de ser primitivo
+
+Agregado

@@ -1,0 +1,6 @@
+### Comandos ###
+cdk list
+cdk deploy Vpc
+cdk diff
+cdk destroy Vpc
+cdk deploy --parameters Rds:databasePassword=matilde123456

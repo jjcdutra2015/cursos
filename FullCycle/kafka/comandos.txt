@@ -1,0 +1,11 @@
+docker-compose ps
+docker logs kafka-kafka-1
+docker exec -it kafka-kafka-1 bash (Entrar no container)
+
+==Comandos kafka==
+kafka-topics --create --topic=teste --bootstrap-server=localhost:9092 --partitions=3
+kafka-topics --list --bootstrap-server=localhost:9092
+kafka-topics --bootstrap-server=localhost:9092 --topic=teste --describe
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste --group=x
+kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
